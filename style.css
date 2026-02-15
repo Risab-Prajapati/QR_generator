@@ -34,6 +34,28 @@ body {
   font-size: 1.2rem;
 }
 
+.input-box .error {
+  animation: shake 0.3s ease-in-out 3;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .qr-container button {
   border: 1.5px solid rgb(83, 80, 80);
   border-radius: 8px;
